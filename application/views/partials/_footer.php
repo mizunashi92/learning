@@ -12,7 +12,7 @@
                         <ul>
                             <li><a href="<?= base_url(); ?>">Home</a></li>
                             <li class="hidden">/</li>
-                            <li><a href="<?= base_url(); ?>videos">See our Videos</a></li>
+                            <li><a href="<?= base_url(); ?>videos/A">See our Videos</a></li>
                             <li class="hidden">/</li>
                             <li><a href="<?= base_url(); ?>docs">Read our Documents</a></li>
                             <li class="hidden">/</li>

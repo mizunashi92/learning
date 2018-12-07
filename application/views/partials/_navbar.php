@@ -13,7 +13,7 @@
                         <a class="nav-link" href="<?= base_url(); ?>">Home</a>
                     </li>
                     <li class="nav-item <?php if ($this->uri->segment(1) === 'videos') echo 'active';?>">
-                        <a class="nav-link" href="<?= base_url(); ?>videos">See our Videos </a>
+                        <a class="nav-link" href="<?= base_url(); ?>videos/A">See our Videos </a>
                     </li>
                     <li class="nav-item <?php if ($this->uri->segment(1) === 'docs') echo 'active';?>">
                         <a class="nav-link" href="<?= base_url(); ?>docs">Read our Documents </a>

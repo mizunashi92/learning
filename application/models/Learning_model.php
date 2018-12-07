@@ -17,7 +17,6 @@ class Learning_model extends CI_Model{
 	}
 
 
-
 	public function get_all_posts($slug = NULL) {
 
 
