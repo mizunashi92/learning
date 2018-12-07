@@ -15,7 +15,4 @@
 <body>
 <?php require_once('_navbar.php'); ?>
 
-<?php 
-
-echo ($this->uri->segment(1) === null) ? require_once('_carousel.php') : '';
-?>
+<?php if ($this->uri->segment(1) === null) require_once('_carousel.php'); ?>

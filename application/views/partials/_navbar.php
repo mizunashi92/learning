@@ -9,13 +9,13 @@
                 </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
                 <ul class="navbar-nav ml-auto">
-                    <li class="<?php ($this->uri->segment(1) === null) ? 'nav-item active' : '';?>">
+                    <li class="nav-item <?php if($this->uri->segment(1) === null) echo 'active'; ?>">
                         <a class="nav-link" href="<?= base_url(); ?>">Home</a>
                     </li>
-                    <li class="<?php ($this->uri->segment(1) === 'videos') ? 'nav-item active' : '';?>">
+                    <li class="nav-item <?php if ($this->uri->segment(1) === 'videos') echo 'active';?>">
                         <a class="nav-link" href="<?= base_url(); ?>videos">See our Videos </a>
                     </li>
-                    <li class="<?php ($this->uri->segment(1) === 'docs') ? 'nav-item active' : '';?>">
+                    <li class="nav-item <?php if ($this->uri->segment(1) === 'docs') echo 'active';?>">
                         <a class="nav-link" href="<?= base_url(); ?>docs">Read our Documents </a>
                     </li>
                     <li class="nav-item">
