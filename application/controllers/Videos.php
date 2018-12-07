@@ -5,7 +5,7 @@ class Videos extends CI_Controller {
 
 	public function index($section) {
 		
-		$data['videos_a'] = $this->Learning_model->get_all_videos_section($section);
+		$data['videos'] = $this->Learning_model->get_all_data($section,'video');
 		
 		$this->load->view('partials/_header');
 		$this->load->view('pages/videos', $data);

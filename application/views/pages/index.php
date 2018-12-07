@@ -1,11 +1,7 @@
     <section class="blog">
         <div class="container">
-         <div class="row">
-                <div class="col-sm-12">
-		<h2>Featured Materials</h2>
-		 </div>
-                        </div>
-            <div class="row">
+          <h2 class="header-section">Featured Materials</h2>
+		    <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="row">
                         <div class="col-md-12">

@@ -14,7 +14,7 @@
                             <li class="hidden">/</li>
                             <li><a href="<?= base_url(); ?>videos/A">See our Videos</a></li>
                             <li class="hidden">/</li>
-                            <li><a href="<?= base_url(); ?>docs">Read our Documents</a></li>
+                            <li><a href="<?= base_url(); ?>docs/A">Read our Documents</a></li>
                             <li class="hidden">/</li>
                             <li><a href="http://bisnis.financialsecurity.id/member">Return to X-panel </a></li>
 

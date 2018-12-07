@@ -14,18 +14,18 @@
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12 left-side">
-                <h2>Our Recent Videos</h2>
+                <h2 class="header-section">Our Recent Videos</h2>
                 <div class="row">
-                    <?php foreach($videos_a as $video_a) : ?>
+                    <?php foreach($videos as $video) : ?>
                     <div class="col-md-3">
                         <figure class="figure">
-                           <iframe width="100%" src="https://www.youtube.com/embed/<?= $video_a['url']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                           <iframe width="100%" src="https://www.youtube.com/embed/<?= $video['url']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </figure>
                     </div>
                     <div class="col-md-3">
-                        <h4><?= $video_a['title']; ?></h4>
+                        <h4><?= $video['title']; ?></h4>
 
-                        <p>Posted on : <?= date('M j, Y', strtotime($video_a['created_at'])); ?></p>
+                        <p>Posted on : <?= date('M j, Y', strtotime($video['created_at'])); ?></p>
                     </div>
                     <?php endforeach; ?>
                 </div>                 

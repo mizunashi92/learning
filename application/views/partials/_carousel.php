@@ -6,7 +6,7 @@
                 <img class="d-block w-100" src="<?php echo base_url(); ?>assets/images/banner-image-4.jpg" alt="First slide">
                  <div class="gradient"></div>
                   <div class="carousel-caption">
-                   <h1>At Univision, we love creative agents!</h1>
+                   <h1>At Univision, we love creative agents!</h1><br>
                    <p class="lead">Untuk menjadi lebih baik, kita perlu belajar. Janganlah pernah takut untuk belajar!  </p>
                     <blockquote>
 <i>"Ketidaktahuan adalah kutukan dari Tuhan, pengetahuan adalah sayap yang akan membawa kita terbang ke surga"</i><br>William Shakespeare

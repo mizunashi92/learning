@@ -16,7 +16,7 @@
                         <a class="nav-link" href="<?= base_url(); ?>videos/A">See our Videos </a>
                     </li>
                     <li class="nav-item <?php if ($this->uri->segment(1) === 'docs') echo 'active';?>">
-                        <a class="nav-link" href="<?= base_url(); ?>docs">Read our Documents </a>
+                        <a class="nav-link" href="<?= base_url(); ?>docs/A">Read our Documents </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="http://bisnis.financialsecurity.id/member">Return to X-panel </a>

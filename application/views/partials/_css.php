@@ -6,3 +6,4 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/animate.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css">
