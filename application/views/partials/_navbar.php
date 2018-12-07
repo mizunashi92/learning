@@ -10,13 +10,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
                 <ul class="navbar-nav ml-auto">
                     <li class="<?php ($this->uri->segment(1) === null) ? 'nav-item active' : '';?>">
-                        <a class="nav-link" href="http://localhost/learning">Home</a>
+                        <a class="nav-link" href="<?= base_url(); ?>">Home</a>
                     </li>
                     <li class="<?php ($this->uri->segment(1) === 'videos') ? 'nav-item active' : '';?>">
-                        <a class="nav-link" href="http://localhost/learning/videos">See our Videos </a>
+                        <a class="nav-link" href="<?= base_url(); ?>videos">See our Videos </a>
                     </li>
                     <li class="<?php ($this->uri->segment(1) === 'docs') ? 'nav-item active' : '';?>">
-                        <a class="nav-link" href="http://localhost/learning/docs">Read our Documents </a>
+                        <a class="nav-link" href="<?= base_url(); ?>docs">Read our Documents </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="http://bisnis.financialsecurity.id/member">Return to X-panel </a>

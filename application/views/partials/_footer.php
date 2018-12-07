@@ -10,11 +10,11 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="<?= base_url(); ?>">Home</a></li>
                             <li class="hidden">/</li>
-                            <li><a href="videos.html">See our Videos</a></li>
+                            <li><a href="<?= base_url(); ?>videos">See our Videos</a></li>
                             <li class="hidden">/</li>
-                            <li><a href="documents.html">Read our Documents</a></li>
+                            <li><a href="<?= base_url(); ?>docs">Read our Documents</a></li>
                             <li class="hidden">/</li>
                             <li><a href="http://bisnis.financialsecurity.id/member">Return to X-panel </a></li>
 
